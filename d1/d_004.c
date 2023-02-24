@@ -15,7 +15,7 @@ int main() {
     printf("b=%u\n", b);//十进制无符号
     printf("c=%f\n", c);//float浮点
     printf("d=%lf\n", d);//double浮点
-    printf("e=%x\n", e);//十六进制
+    printf("e=%x\n", e);//无符号十六进制
     printf("e=%d\n", e);
     printf("f=%e\n", f);//指数形式的浮点数
     printf("g=%e\n", g);//指数形式的浮点数

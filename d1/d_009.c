@@ -79,7 +79,7 @@ int main() {
     int sum2 = 0;
     do {
         o2++;
-        sum2+=o2;
+        sum2 += o2;
     } while (o2 < 100);
     printf("%d\n", sum2);
 }

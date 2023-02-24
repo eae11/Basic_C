@@ -29,13 +29,12 @@ int main() {
     printf("%d\n", sizeof(c));//24字节
     printf("%d\n", sizeof(c[0]));//8字节
     int m = sizeof(c) / sizeof(c[0]);
-    int n = 2;
+    int n = sizeof(c[0]) / sizeof(c[0][0]);
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
             printf("c[%d] [%d]=%d\n", i, j, c[i][j]);
         }
         printf("\n");
     }
-
 
 }
