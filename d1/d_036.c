@@ -7,6 +7,5 @@ int main() {
     for (int i = 0; i < 5; ++i) {
         printf("%s\n", name[i]);
     }
-    printf("我是打不到");
     return 0;
 }

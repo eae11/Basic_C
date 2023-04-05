@@ -12,10 +12,8 @@ int main() {
     printf("%s\n", c1);//遇到'\0停止打印'
     printf("%s\n", c2);//把c2首地址传进去遇到'\0停止打印'
     fflush(stdout);
-
     char str[15];
     scanf("%s", &str);
     printf("%s\n", str);
-
     return 0;
 }

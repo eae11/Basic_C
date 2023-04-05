@@ -7,12 +7,12 @@ struct stu {
 };
 
 int main() {
-    struct stu boy = {101, "lilei"};
+    struct stu boy = {101,"lilei"};
     struct stu *p;
     p = &boy;
-    printf("%d\n", sizeof(p));
-    printf("%d\n", boy.num);
-    printf("%d\n", (*p).num);
-    printf("%d\n", p->num);
+    printf("%d\n",sizeof(p));
+    printf("%d\n",boy.num);
+    printf("%d\n",(*p).num);
+    printf("%d\n",p->num);
     return 0;
 }

@@ -12,7 +12,7 @@ int main() {
     INT32 a = 16;
     printf("%d\n", a);
     printf("%f\n", l);
-    volatile b = 16;//去主存里读
+    volatile int b = 16;//去主存里读
     return 0;
 
 }

@@ -60,7 +60,7 @@
 060 strtok字符串切割
 061 字符切割练习
 062 sprintf sscanf
-063 const
+063 const修饰指针
 064 实现strlen strcpy atoi
 065 结构体定义
 066 结构体变量定义及初始化
